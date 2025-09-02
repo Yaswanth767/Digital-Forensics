@@ -42,7 +42,7 @@ By analyzing headers, we can identify:
 *Step-4:* Copy and paste the entire header text into the tool and click *Analyze Header*.  
 
 
-![(images/exp4-step4.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/9fbbaf3e036c541c5ecf03ce8b980e220c3d37a3/images/WhatsApp%20Image%202025-09-01%20at%2012.27.46.jpeg)
+![(images/exp4-step4.png)](https://github.com/Yaswanth767/Digital-Forensics/blob/eee1af0a1e9d2fddf3ff8c48823137f46d9a0264/images/Screenshot%202025-09-02%20131423.png)
 
 *Step-5:* Identify key header fields:  
 - From  
@@ -54,13 +54,13 @@ By analyzing headers, we can identify:
 - Message-ID  
 - SPF / DKIM / DMARC
   
-![(images/exp4-step5.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/9fbbaf3e036c541c5ecf03ce8b980e220c3d37a3/images/WhatsApp%20Image%202025-09-01%20at%2012.28.00.jpeg)
+![(images/exp4-step5.png)](https://github.com/Yaswanth767/Digital-Forensics/blob/eee1af0a1e9d2fddf3ff8c48823137f46d9a0264/images/Screenshot%202025-09-02%20131550.png)
 
 *Step-6:* Check for IP addresses and hostnames.  
 - Use tools like *WHOIS* or online IP lookup services to identify the geographical location and ownership of IP addresses found in the Received lines.  
 - Verify if any IPs are suspicious or if the hostname doesn’t match the expected sending server.
 
-![(images/exp4-step6.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/9fbbaf3e036c541c5ecf03ce8b980e220c3d37a3/images/WhatsApp%20Image%202025-09-01%20at%2012.28.13.jpeg)
+![(images/exp4-step6.png)](https://github.com/Yaswanth767/Digital-Forensics/blob/eee1af0a1e9d2fddf3ff8c48823137f46d9a0264/images/Screenshot%202025-09-02%20131644.png)
 
 *Step-7:* Examine the SPF, DKIM, and DMARC results:  
 - *SPF (Sender Policy Framework):* Checks if the sender’s server/IP is authorized for that domain.  
@@ -75,10 +75,10 @@ By analyzing headers, we can identify:
 domain
 - DKIM DomainKeys Identified Mail → Ensures email content wasn’t changed.
 
-![(images/exp4-step7.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/9fbbaf3e036c541c5ecf03ce8b980e220c3d37a3/images/WhatsApp%20Image%202025-09-01%20at%2012.29.19.jpeg)
+![(images/exp4-step7.png)](https://github.com/Yaswanth767/Digital-Forensics/blob/eee1af0a1e9d2fddf3ff8c48823137f46d9a0264/images/Screenshot%202025-09-02%20131535.png)
 
 
-![(images/exp4-step7.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/9fbbaf3e036c541c5ecf03ce8b980e220c3d37a3/images/WhatsApp%20Image%202025-09-01%20at%2012.29.29.jpeg)
+![(images/exp4-step7.png)](https://github.com/Yaswanth767/Digital-Forensics/blob/eee1af0a1e9d2fddf3ff8c48823137f46d9a0264/images/Screenshot%202025-09-02%20131849.png)
 
 ---
 
