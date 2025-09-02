@@ -27,34 +27,32 @@ To recover lost partitions and deleted files using TestDisk.
 ## Procedure — Steps to Recover Data Using TestDisk
 
 *Step-1:* Launch the TestDisk tool. In the terminal window, select *Create* to make a new log file and press *Enter*.  
-![Step 1](images/exp2-step1.png)
+![Step 1](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/ex2.1.jpg)
 
 *Step-2:* TestDisk will list available disks (HDDs, SSDs, USB drives). Use the arrow keys to highlight the disk you want to analyze and press *Enter*.  
-![Step 2](images/exp2-step2.png)
+![Step 2](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/ex2.2.jpg)
 
 *Step-3:* TestDisk usually auto-detects the partition table (Intel/PC, EFI GPT, Mac, etc.). Verify and press *Enter*.  
-![Step 3](images/exp2-step3.png)
+![Step 3](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/ex2.3.jpg)
 
 *Step-4:* Analyze the current partition structure. From the terminal, select *Analyse* and press *Enter*.  
-![Step 4](images/exp2-step4.png)
+![Step 4](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/wx2.4.jpg)
 
 *Step-5:* After analysis, you will be asked to perform *Quick Search. Select it and press **Enter*.  
-![Step 5](images/exp2-step5.png)
+![Step 5](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/ex2.5.jpg)
 
 *Step-6:* TestDisk scans the disk and lists lost partitions.  
-![Step 6](images/exp2-step6.png)
+![Step 6](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/ex2.6.jpg)
 
 *Step-7:* Press *P* to view the list of files and *C* to copy the files.  
-![Step 7](images/exp2-step7.png)
-
+![Step 7](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/ex2.7.jpg)
 *Step-8:* If Quick Search does not find your partition/files, select *Deeper Search* and press *Enter*. This takes longer but finds more recoverable partitions.  
-![Step 8](images/exp2-step8.png)
-
+![Step 8](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/ex2.11.jpg)
 *Step-9:* Once you are confident the partition is correct, select *Write* and press *Enter*.  
-![Step 9](images/exp2-step9.png)
+![Step 9](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/ex2.12.jpg)
 
 *Step-10:* Confirm the operation by pressing *Y*. This will write the partition table to your disk.  
-![Step 10](images/exp2-step10.png)
+![Step 10](https://github.com/Yaswanth767/Digital-Forensics/blob/e51af0d0e57caad88294b947034a08bec07a570b/images/ex2.13.jpg)
 
 - Once recovery is complete, exit TestDisk by selecting *Quit*.  
 - Verify recovered files in the destination folder.  
