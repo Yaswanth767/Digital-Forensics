@@ -28,12 +28,12 @@ By analyzing headers, we can identify:
 *Step-1:* First, get the email header. In Gmail, select the mail, click the three dots, and choose *Show Original*.  
 
 
-![(images/exp4-step1.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/9fbbaf3e036c541c5ecf03ce8b980e220c3d37a3/images/WhatsApp%20Image%202025-09-01%20at%2012.26.55.jpeg)
+![(images/exp4-step1.png)](https://github.com/Yaswanth767/Digital-Forensics/blob/da133ced184283758bc66cba602e27290183df88/images/Screenshot%202025-09-02%20131305.png)
 
 
 *Step-2:* After clicking *Show Original*, you will see the raw message with sender and receiver details.  
 
-![(images/exp4-step2.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/9fbbaf3e036c541c5ecf03ce8b980e220c3d37a3/images/WhatsApp%20Image%202025-09-01%20at%2012.27.16.jpeg)
+![(images/exp4-step2.png)](https://github.com/Yaswanth767/Digital-Forensics/blob/da133ced184283758bc66cba602e27290183df88/images/Screenshot%202025-09-02%20131334.png)
 
 *Step-3:* Use the *Mail Header Analyzer tool* for easy reading and analysis.  
 
