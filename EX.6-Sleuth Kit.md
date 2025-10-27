@@ -35,7 +35,7 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     ```
     Note the Start Sector of the partition (e.g., 2048).
 
-    ![mmls output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222452.png)
+    ![mmls output](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20222452.png?raw=true)
 
 <!-- [Insert Screenshot: Place the screenshot of mmls command output showing partition table] -->
 
@@ -43,7 +43,7 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     ```bash
     fsstat -o 63 Evidence.raw
     ```
-    ![fsstat output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222446.png)
+    ![fsstat output](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20222446.png?raw=true)
 
     <!-- [Insert Screenshot: Place the screenshot showing file system information] -->
 
@@ -52,15 +52,15 @@ The Sleuth Kit (TSK) is a powerful open-source digital forensics toolkit that en
     ```bash
     fls -o 63 Evidence.dd
     ```
-    ![fls output 1](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20224310.png)
-    ![fls output 2](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222608.png)
+    ![fls output 1](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20224310.png?raw=true)
+    ![fls output 2](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20222608.png?raw=true)
     <!-- [Insert Screenshot: Place the screenshot showing file listing] -->
 
 2. Use `icat` to extract files using their inode numbers and to recover
     ```bash
     icat evidence_disk.dd inode_number > recovered_file
     ```
-    ![icat output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222954.png)
+    ![icat output](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20222954.png?raw=true)
 
     <!-- [Insert Screenshot: Place the screenshot of file recovery process] -->
 
@@ -87,7 +87,6 @@ ils evidence_disk.dd
     ```bash
     istat -o 63 Evidence 6342-128-4
     ```
-![istat output](Output%20Screenshot/Exp6/Screenshot%202025-10-23%20222950.png)
 
 ---
 
