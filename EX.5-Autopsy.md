@@ -1,109 +1,99 @@
-# Experiment-5: Use Autopsy to Create a Case and Import Evidence
-
-**Course / Lab:** Digital Forensics Lab  
-**Experiment No.:** 5  
-**Title:** Use Autopsy to Create a Case and Import Evidence  
-
-
+# Experiment - 5
+# Use Autopsy to Create a Case and Import Evidence
 ---
 
 ## Aim
-To analyze a forensic disk image using Autopsy and extract digital evidence.
+To learn how to create a new case in Autopsy Digital Forensics Tool and import digital evidence for analysis.
 
 ---
 
-## Requirements
-- Autopsy (installed on Windows, Linux, or macOS)  
-- Forensic disk image or data source to analyze  
+## Tools Used
+- Autopsy 4.21.0 or later
+- Sample digital evidence file (disk image, USB image, or any other supported format)
 
 ---
 
 ## Description
-Autopsy is an open-source digital forensics platform used for analyzing and extracting data from digital devices.  
-It provides modules for file system analysis, keyword search, timeline visualization, hash analysis, and reporting.  
-This experiment demonstrates how to create a case, import evidence, analyze data, and generate reports using Autopsy.  
+Autopsy is a popular open-source digital forensics platform used by law enforcement, military, and corporate examiners to investigate what happened on a computer. It has a graphical interface that allows forensic investigators to analyze disk images, perform timeline analysis, and recover deleted files.
 
 ---
+## Procedure
 
-## Procedure — Steps to Analyze Evidence Using Autopsy
+1. **Launch Autopsy**
+   - Open Autopsy digital forensics tool
+   - Wait for the application to initialize
+   
+   [Screenshot placeholder: Autopsy welcome screen]
+   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 193917.png>)
+   <!-- Insert screenshot of Autopsy welcome screen in Output Screenshot/Exp5/autopsy_welcome.png -->
 
-**Step-1: Installation**  
-- Download and install Autopsy from the official website.  
-- Follow installation instructions based on your operating system (Windows, Linux, or macOS).  
+2. **Create New Case**
+   - Click on "Create New Case" option
+   - Enter case name, base directory for case storage
+   - Fill in optional case details (examiner name, case number, etc.)
+   
+   [Screenshot placeholder: New case creation window]
+   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 193953.png>)
+   <!-- Insert screenshot of new case creation window in Output Screenshot/Exp5/new_case.png -->
 
+3. **Configure Case Database**
+   - Select the database type (Single-user or Multi-user)
+   - Choose the database location
+   - Click "Next" to proceed
+   
+   <!-- [Screenshot placeholder: Database configuration]
+   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194311.png>)
+   Insert screenshot of database configuration in Output Screenshot/Exp5/db_config.png -->
 
-**Step-2: Starting a New Case**  
-- Create a new case by clicking on **New Case**.  
-- Enter the case name and location where case data will be stored.  
-- Fill in details such as case number, examiner’s name, etc., and click **Next**.
+4. **Add Data Source**
+   - Click "Add Data Source" in the main window
+   - Select the type of data source (disk image, local drive, logical files)
+   - Browse and select the evidence file
+   
+   [Screenshot placeholder: Add data source window]
+   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194311.png>)
+   <!-- Insert screenshot of adding data source in Output Screenshot/Exp5/add_source.png -->
 
+5. **Configure Ingest Modules**
+   - Select relevant ingest modules for analysis
+     - Recent Activity
+     - Hash Lookup
+     - File Type Identification
+     - Keyword Search
+     - EXIF Parser
+     - etc.
+   - Configure settings for selected modules
+   
+   [Screenshot placeholder: Ingest modules configuration]
+   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194505.png>)
+   <!-- Insert screenshot of ingest modules in Output Screenshot/Exp5/ingest_modules.png -->
 
-![(images/exp5-step2.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/f90da30830306f35655735d52eb562bfd33a352f/images/WhatsApp%20Image%202025-09-01%20at%2012.29.59.jpeg)
-
-**Step-3: Enter Case Details**  
-- Enter the case name and location where the case data will be stored. Fill in the details like the case number, examiner's name, etc., and click Next.
-
-![(images/exp5-step2.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/f90da30830306f35655735d52eb562bfd33a352f/images/WhatsApp%20Image%202025-09-01%20at%2012.30.16.jpeg)
-
-**Step-4: Adding a Data Source**  
-- Choose the type of data source.  
-- Select the data source (e.g., disk image, local drive, logical files).  
-- Configure **Ingest Modules** (to analyze files, search keywords, extract metadata, etc.).  
-- Start the analysis.
-
-![(images/exp5-step3.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/f90da30830306f35655735d52eb562bfd33a352f/images/WhatsApp%20Image%202025-09-01%20at%2012.31.16.jpeg)
-
-**Step-5: Initial Analysis and Overview**  
-- Monitor **Ingest Progress**.  
-- Explore the resulting artifacts.  
-- Use the Tree Viewer to navigate evidence categories.  
-![(images/exp5-step5.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/f90da30830306f35655735d52eb562bfd33a352f/images/WhatsApp%20Image%202025-09-01%20at%2012.31.26.jpeg)
-
-**Step-6: Detailed Analysis**  
-- **Keyword Search:**  
-  - Perform searches using the Keyword Search module.  
-  - Use pre-configured lists or enter custom keywords.  
-- **File Analysis:**  
-  - Navigate files and folders under File Types or File System.  
-  - Open, view, or export files for further examination.  
-- **Timeline Analysis:**  
-  - Use the Timeline module to visualize events by timestamps.  
-  - Helps track user activity over time.  
-- **Hash Analysis:**  
-  - Compare file hashes against known databases to identify known good/bad files.
-
-![(images/exp5-step6.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/f90da30830306f35655735d52eb562bfd33a352f/images/WhatsApp%20Image%202025-09-01%20at%2012.31.37.jpeg)
-
-**Step-7: Reporting**  
-- Generate a report by selecting **Generate Report** from the toolbar.  
-- Choose report type (HTML, CSV, Excel, etc.).  
-- Select which analysis results to include.  
-- Export findings: export individual files or artifacts for reporting or further analysis.  
-- Final Review: check that the report includes all relevant details.  
-- Save or print the report for case documentation.  
-
-![(images/exp5-step6.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/f90da30830306f35655735d52eb562bfd33a352f/images/WhatsApp%20Image%202025-09-01%20at%2012.31.52.jpeg)
-
-- Report Generation Progress
-
-![(images/exp5-step6.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/f90da30830306f35655735d52eb562bfd33a352f/images/WhatsApp%20Image%202025-09-01%20at%2012.32.03.jpeg)
-
-- Reports
-
-![(images/exp5-step6.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/f90da30830306f35655735d52eb562bfd33a352f/images/WhatsApp%20Image%202025-09-01%20at%2012.32.15.jpeg)
-
-- Text in the report
-
-![(images/exp5-step6.png)](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/f90da30830306f35655735d52eb562bfd33a352f/images/WhatsApp%20Image%202025-09-01%20at%2012.32.38.jpeg)
-
-**Step-7: Case Closure**  
-- Close the case once the investigation is complete.  
-- Archive all data and reports according to organizational policies.  
+6. **Start Analysis**
+   - Review selected options
+   - Click "Finish" to begin processing
+   - Monitor ingest progress
+   
+   [Screenshot placeholder: Analysis progress]
+   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194512.png>)
+   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194545.png>)
+   <!-- Insert screenshot of analysis progress in Output Screenshot/Exp5/analysis_progress.png -->
 
 ---
 
 ## Result
+After completing this experiment, you should be able to:
+1. Successfully create a new case in Autopsy
+2. Import digital evidence into the case
+3. Configure appropriate ingest modules for analysis
+4. Begin the forensic analysis process
 
-The experiment successfully demonstrated the use of Autopsy for creating a case, importing evidence, analyzing digital artifacts, and generating reports, thereby validating its effectiveness as a digital forensic investigation tool.
+---
+The imported evidence will be ready for detailed forensic analysis using Autopsy's various tools and features. The case structure is now set up to maintain proper chain of custody and documentation of the investigation process.
+
+[Screenshot placeholder: Final case view]
+![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 210153.png>)
+<!-- Insert screenshot of final case view in Output Screenshot/Exp5/final_view.png -->
+
+Note: Remember to document all steps and maintain proper chain of custody throughout the process. Each action taken in Autopsy is logged and can be reviewed later as part of the investigation documentation.
 
 ---
