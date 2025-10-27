@@ -75,9 +75,7 @@
     Result: 0.4
     Steganography likely present
     ```
-  ![images/exp1-disk-step1.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/918625ec1e528d3a2721668acf6474e8c581c12a/images/8.10.png)
-  
-  ![images/exp1-disk-step1.png](https://github.com/baddiputi/Digital-Forensic-Lab-Exercises/blob/918625ec1e528d3a2721668acf6474e8c581c12a/images/8.11.png)
+  ![images/exp1-disk-step1.png](https://github.com/Yaswanth767/Digital-Forensics/blob/main/8.10.png?raw=true)
 
 ### 6. Batch Analysis (Multiple Images)
 
