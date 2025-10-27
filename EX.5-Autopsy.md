@@ -24,7 +24,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Wait for the application to initialize
    
    [Screenshot placeholder: Autopsy welcome screen]
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 193917.png>)
+   ![alt text](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20193917.png?raw=true)
    <!-- Insert screenshot of Autopsy welcome screen in Output Screenshot/Exp5/autopsy_welcome.png -->
 
 2. **Create New Case**
@@ -33,7 +33,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Fill in optional case details (examiner name, case number, etc.)
    
    [Screenshot placeholder: New case creation window]
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 193953.png>)
+   ![alt text](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20193953.png?raw=true)
    <!-- Insert screenshot of new case creation window in Output Screenshot/Exp5/new_case.png -->
 
 3. **Configure Case Database**
@@ -51,7 +51,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Browse and select the evidence file
    
    [Screenshot placeholder: Add data source window]
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194311.png>)
+   ![alt text](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20194311.png?raw=true)
    <!-- Insert screenshot of adding data source in Output Screenshot/Exp5/add_source.png -->
 
 5. **Configure Ingest Modules**
@@ -65,7 +65,7 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Configure settings for selected modules
    
    [Screenshot placeholder: Ingest modules configuration]
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194505.png>)
+   ![alt text](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20194505.png?raw=true)
    <!-- Insert screenshot of ingest modules in Output Screenshot/Exp5/ingest_modules.png -->
 
 6. **Start Analysis**
@@ -74,8 +74,8 @@ Autopsy is a popular open-source digital forensics platform used by law enforcem
    - Monitor ingest progress
    
    [Screenshot placeholder: Analysis progress]
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194512.png>)
-   ![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 194545.png>)
+   ![alt text](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20194512.png?raw=true)
+  
    <!-- Insert screenshot of analysis progress in Output Screenshot/Exp5/analysis_progress.png -->
 
 ---
@@ -91,7 +91,7 @@ After completing this experiment, you should be able to:
 The imported evidence will be ready for detailed forensic analysis using Autopsy's various tools and features. The case structure is now set up to maintain proper chain of custody and documentation of the investigation process.
 
 [Screenshot placeholder: Final case view]
-![alt text](<Output Screenshot\Exp5\Screenshot 2025-10-23 210153.png>)
+![alt text](https://github.com/Yaswanth767/Digital-Forensics/blob/main/images/Screenshot%202025-10-23%20210153.png?raw=true)
 <!-- Insert screenshot of final case view in Output Screenshot/Exp5/final_view.png -->
 
 Note: Remember to document all steps and maintain proper chain of custody throughout the process. Each action taken in Autopsy is logged and can be reviewed later as part of the investigation documentation.
